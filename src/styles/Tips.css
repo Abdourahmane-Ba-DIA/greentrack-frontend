@@ -1,0 +1,120 @@
+/* CONTENEUR PRINCIPAL */
+.tips {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* HEADER AVEC LOGO */
+.tips-header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.tips-header h1 {
+  color: #4CAF50;
+  font-size: 2rem;
+  margin-top: 0.6rem;
+}
+
+.tips-header p {
+  color: #555;
+  font-size: 1.1rem;
+  margin-top: 0.3rem;
+}
+
+/* BOUTONS DE CATÉGORIES */
+.categories {
+  display: flex;
+  gap: 0.6rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.category-btn {
+  padding: 0.6rem 1.2rem;
+  border: 2px solid #4CAF50;
+  background: white;
+  color: #4CAF50;
+  border-radius: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.category-btn.active,
+.category-btn:hover {
+  background: #4CAF50;
+  color: white;
+}
+
+/* LISTE DES CARTES */
+.tips-list {
+  display: grid;
+  gap: 1.6rem;
+}
+
+/* CARTE INDIVIDUELLE */
+.tip-card {
+  background: white;
+  padding: 1.6rem;
+  border-radius: 10px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+  border-left: 5px solid #4CAF50;
+}
+
+.tip-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.tip-header h3 {
+  margin: 0;
+  color: #333;
+  flex: 1;
+}
+
+/* BADGES IMPACT */
+.impact-badge {
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-left: 1rem;
+  text-transform: capitalize;
+}
+
+.impact-badge.high {
+  background: #ffebee;
+  color: #c62828;
+}
+
+.impact-badge.medium {
+  background: #fff3e0;
+  color: #ef6c00;
+}
+
+.impact-badge.low {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+/* TEXTE DU CONSEIL */
+.tip-content {
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+/* CATÉGORIE */
+.tip-category {
+  background: #E3F2FD;
+  color: #1565C0;
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  text-transform: capitalize;
+}

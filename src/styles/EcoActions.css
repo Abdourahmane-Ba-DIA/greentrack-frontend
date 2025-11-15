@@ -1,0 +1,115 @@
+.eco-actions {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* HEADER AVEC LOGO */
+.actions-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.5rem;
+  flex-wrap: wrap;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.actions-header h1 {
+  color: #4CAF50;
+  margin: 0;
+  font-size: 1.9rem;
+}
+
+/* LISTE DES CARTES */
+.actions-list {
+  display: grid;
+  gap: 1.3rem;
+}
+
+/* CARTE D'ACTION */
+.action-card {
+  background: white;
+  padding: 1.7rem;
+  border-radius: 10px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+  border-left: 5px solid #4CAF50;
+  transition: transform 0.2s ease;
+}
+
+.action-card:hover {
+  transform: translateY(-3px);
+}
+
+/* HEADER DE LA CARTE */
+.action-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.action-icon {
+  background: #4CAF50;
+  color: white;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+  font-size: 0.9rem;
+}
+
+.action-header h3 {
+  margin: 0;
+  flex: 1;
+  color: #222;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.action-date {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+/* DESCRIPTION */
+.action-description {
+  color: #555;
+  margin-bottom: 1rem;
+  line-height: 1.55;
+}
+
+/* IMPACTS (CO2, EAU, DÉCHETS) */
+.action-impacts {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.action-impacts span {
+  background: #E8F5E8;
+  padding: 0.35rem 0.9rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  color: #2E7D32;
+  font-weight: 500;
+}
+
+/* ACTIONS (MODIFIER / SUPPRIMER) */
+.action-actions {
+  display: flex;
+  gap: 0.7rem;
+}
+
+.no-actions {
+  text-align: center;
+  padding: 2rem;
+  color: #666;
+}
